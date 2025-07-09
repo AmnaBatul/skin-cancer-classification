@@ -45,4 +45,5 @@ Performed in `skin_cancer_ResNet.ipynb`
 
 ## 🛠️ How to Run
 git clone https://github.com/AmnaBatul/skin-cancer-classification.git
+
 cd skin-cancer-classification
