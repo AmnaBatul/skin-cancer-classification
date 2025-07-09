@@ -18,3 +18,28 @@ This project focuses on classifying skin lesions into seven diagnostic categorie
 
  ## 📊 Exploratory Data Analysis (EDA)
  Performed in `skin_cancer_EDA.ipynb`
+ ### Metadata Analysis
+ * Diagnosis Distribution: Visualized class imbalance; majority of samples belong to nv, minority classes include df, vasc.
+ * Age Distribution: Most patients are between 25 and 65 years old.
+ * Sex Distribution: Slight male dominance; some missing values.
+ * Lesion Localization: Frequent locations include lower extremities, back, and trunk.
+ ### Visual Inspection
+ * Sampled and displayed one representative image per class for qualitative analysis.
+
+## 🔧 Classification Pipeline
+Performed in `skin_cancer_ResNet.ipynb`
+### Model Details
+* Image Model: Pretrained ResNet50 to extract visual features
+* Metadata Model: To process age, sex, and location
+* Fusion: Combined both branches before the final classifier
+
+### Training Setup
+* Loss Function: CrossEntropyLoss
+* Optimizer: Adam
+* Evaluation Metric: Macro F1-score, Accuracy
+* Training Monitoring: Early stopping on testing F1
+
+### Results
+* Test Accuracy: ~88%
+* Macro F1 Score: ~0.80
+
