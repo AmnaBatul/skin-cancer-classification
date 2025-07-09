@@ -43,3 +43,6 @@ Performed in `skin_cancer_ResNet.ipynb`
 * Test Accuracy: ~88%
 * Macro F1 Score: ~0.80
 
+## 🛠️ How to Run
+git clone https://github.com/AmnaBatul/skin-cancer-classification.git
+cd skin-cancer-classification
