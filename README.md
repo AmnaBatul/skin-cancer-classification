@@ -5,7 +5,7 @@ This project focuses on classifying skin lesions into seven diagnostic categorie
 
 ## 🔹Dataset
 * Name: HAM10000 (Human Against Machine with 10,000 training images)
-* Source: Kaggle - kmader/skin-cancer-mnist-ham10000
+* Source: https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000
 * Size: 10,015 dermoscopic images + metadata
 * Diagnosis Labels:
    * nv: Melanocytic nevi
